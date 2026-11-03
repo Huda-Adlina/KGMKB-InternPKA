@@ -1,0 +1,81 @@
+/* 1. GENERAL WEBSITE SETTINGS */
+* { box-sizing: border-box; }
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f0;
+    color: #4a4038;
+    font-family: Georgia, serif;
+}
+
+/* 2. MAIN HEADING */
+h1 
+{
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+/* 3. SECONDARY HEADING */
+h2 
+{
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* 4. PARAGRAPH */
+p 
+{
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* 5. BUTTON */
+button 
+{
+    display: block;
+    margin: 40px auto;
+    padding: 12px 30px;
+    background-color: #b69b85;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover 
+{
+    background-color: #967b66;
+}
+
+/* 6. MOBILE SCREEN SETTINGS */
+@media (max-width: 600px) 
+{
+    h1 
+    {
+        font-size: 36px;
+        margin-top: 70px;
+    }
+
+    h2 
+    {
+        font-size: 20px;
+    }
+
+    p 
+    {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+}
